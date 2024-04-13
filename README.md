@@ -12,7 +12,7 @@ You need the following pre-reqs to build and run this package:
 ## Building locally
 Run the following command
 ```bash
-cargo lambda build --target aarch64-unknown-linux-gnu
+cargo lambda build --release --arm64 --output-format zip
 ```
 
 ## Starting a Local Server
