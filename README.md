@@ -32,6 +32,12 @@ curl -v -X POST \
 Or with a web-browser:
 `http://localhost:9000/lambda-url/WbertoreRustLambdas/`
 
+Example filling in the name parameter:
+`http://localhost:9000/lambda-url/WbertoreRustLambdas?name=Wyatt`
+
+Example hitting the health check url:
+`http://localhost:9000/lambda-url/WbertoreRustLambdas/health/`
+
 Right now the lambda is using the package name `WbertoreRustLambdas` in the Cargo.toml file. When more lambdas are
 added, you can make requests by filling out the metadata section. See more info here:
 https://www.cargo-lambda.info/commands/watch.html
